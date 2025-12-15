@@ -42,7 +42,7 @@ git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git p
 echo "CONFIG_PACKAGE_luci-app-passwall=y" >> .config
 echo "CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y" >> .config
 
-# 3. (可选) 开启一些常用的核心组件 (防止运行时缺依赖)
+# 3. (可选) 开启一些常用的核心组件 (防止运行时缺依赖1)
 # 这些是 Passwall 运行通常需要的组件，建议默认开启
 echo "CONFIG_PACKAGE_ipt2socks=y" >> .config
 echo "CONFIG_PACKAGE_microsocks=y" >> .config
